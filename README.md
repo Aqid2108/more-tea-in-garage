@@ -137,7 +137,6 @@ Don't hand-edit `urdf/more_tea.urdf`. The generator overwrites it.
 - **Wheel and RPLIDAR masses.** They need weighing (section 4).
 - **IMU, head, neck and bumper.** They aren't in the Fusion model this was generated from.
 - **Mecanum rollers.** They aren't modelled: wheels collide as plain cylinders. That's fine for Nav2 planning, but a physics sim needs the mecanum-drive plugin to strafe.
-- **License.** `package.xml` still says `TODO`.
 
 ### Who can pick up what
 
@@ -148,3 +147,7 @@ Don't hand-edit `urdf/more_tea.urdf`. The generator overwrites it.
 | Measure rolling resistance: pull the loaded robot with a luggage scale and note the steady force | Luggage scale | 15 min |
 | Build the Gazebo package | ROS 2, Gazebo Harmonic, some URDF/SDF | A few sessions |
 | Add the IMU frame once its mounting position is decided | Fusion, then section 5 | 1 hour |
+
+## License
+
+[MIT](LICENSE) © 2026 Aqid Rafiuddin

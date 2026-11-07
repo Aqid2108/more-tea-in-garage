@@ -57,4 +57,7 @@ Also loaded in MuJoCo with strict inertia checks: it settles on its four wheels 
 4. **Wheel axes come from the wheel geometry**, not from Fusion: the design is non-parametric (direct modelling), so Fusion's API cannot return joint origins, axes or limits. The wheels are unlimited (continuous).
 5. `Lidar Holder (Assembly) v4` is an **empty component** in the rigid group. It is skipped; safe to delete in Fusion.
 6. Not modelled yet: IMU, the head / neck / bumper.
-7. `package.xml` license is still `TODO` - pick one (e.g. MIT, Apache-2.0) before sharing outside the club.
+
+## License
+
+MIT, see [LICENSE](../../LICENSE) at the repo root.
